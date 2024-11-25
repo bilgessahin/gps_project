@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/GpsApp">
+<file alias="main.qml">/home/bilge/Desktop/GpsApp/main.qml</file>
+</qresource>
+</RCC>

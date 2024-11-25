@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qrc/images/compass-removebg-preview.png</file>
+        <file>qrc/qml/main.qml</file>
+    </qresource>
+</RCC>
