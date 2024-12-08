@@ -1,8 +1,9 @@
-QT += quick virtualkeyboard
+QT += quick virtualkeyboard positioning
+
 
 SOURCES += \
         main.cpp \
-        src/gpsmanager.cpp
+        src/GpsManager.cpp
 
 resources.prefix = /$${TARGET}
 RESOURCES += Resources.qrc
@@ -19,4 +20,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    include/gpsmanager.h
+    include/Constants.h \
+    include/GpsManager.h
